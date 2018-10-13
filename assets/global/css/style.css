@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/*
+Estilos propios de la plataforma
+*/
+#footer-table{
+
+	padding-bottom: 35px;
+}
+#footer-table .paginator{
+
+	text-align: right;
+}
+
+.select-content{
+
+	border-top: 1px solid #eef1f5;
+	padding-top: 20px;
+}
+
+.calendar{
+
+}
+.calendar .day {
+  border: 1px solid #e9ecf3;
+  height: 80px;
+  padding: 7px;
+  text-align: right;
+}
+.calendar .today {
+  background-color: #f2f6f9;
+  border: 1px solid #f2f6f9;
+  font-size: 18px;
+  padding: 7px;
+  text-align: right;
+}
+.calendar .heading_row_start th:nth-child(2) {
+  font-size: 32px;
+  font-weight: 100;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.calendar .heading_row_start th:nth-child(3) {
+  text-align: right;
+}
+
+.calendar tbody tr:nth-child(2) {
+  background: #26a1ab none repeat scroll 0 0;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.mt-checkbox > span::after {
+  border-color: #fff;
+}
+#EDIT-CLIENTES .mt-checkbox > span::after{
+
+  border-color: #000;
+}
+.btn-event{
+  margin-bottom: 6px;
+  width: 100%;
+  color: #000;
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.page-header.navbar .search-form .input-group {
+  border-radius: 17px;
+  height: 33px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  width: 33px;
+}
+.top-menu .slimScrollDiv label{
+  color:#fff;
+}
+#INDEX-BIBLIOTECA .tooltipInfo {
+  width: 275px;
+  background-color: #fff;
+  border: 2px solid #26A1AB;
+  border-radius: 5px;
+  position: relative;
+  top: -10px;
+  left: 0px;
+  text-align: center;
+  padding: 10px;
+  z-index: 9;
+}
+#INDEX-BIBLIOTECA .btn-archivador{
+  float: left;
+  padding: 15px;
+}
+#INDEX-BIBLIOTECA .icon-sistem, .msn-archivos {
+  text-align: center;
+  height: 120px;
+}
+#INDEX-BIBLIOTECA .icon-sistem,.msn-archivos{
+  text-align: center;
+}
+#INDEX-BIBLIOTECA .icon-sistem i{
+  font-size: 3.5em;
+  cursor: pointer;
+}
+#INDEX-BIBLIOTECA .icon-sistem input{
+  text-align: center;
+  border: none;
+  width: 100%;
+}
+#INDEX-BIBLIOTECA .dropdown-menu {
+  margin-top: -64px;
+  margin-left: 96px;
+  background-color: #3C3C3C;
+}
+#INDEX-BIBLIOTECA .dropdown-menu li a {
+  color:#fff;
+}
+#INDEX-BIBLIOTECA .dropdown-menu li a:hover {
+  background-color: #666666;
+  color:#fff;
+}
+#INDEX-BIBLIOTECA .breadcrumb.folder li{
+  padding: 10px;
+  border: 1px solid #E9ECF3;
+}
+
+.table.config-tarifa.table-light > tbody > tr > td {
+  color: #000;
+}
+.config-tarifa tbody tr td:nth-child(1){
+  background-color: #E7E7E9;
+} 
+.config-tarifa tbody tr td:nth-child(2){
+  background-color: #C7C8CA;
+}
+
+.config-tarifa tbody tr td:nth-child(3){
+  background-color: #BCC3C9;
+}
+
+.config-tarifa tbody tr td:nth-child(4){
+  width: 20%;
+} 
+
+input.comision-tarifa{
+  border: none;
+  font-size: 2em;
+  text-align: center;
+}
+
